@@ -16,7 +16,7 @@ function ChatContainer() {
                 >
                     {messages.map((item) => {
                         return <ChatMessage
-                            reactions={item.reactions ? item.reactions : null}
+                            // reactions={item.reactions ? item.reactions : null}
                             message={item.message}
                             username={item.username}
                             likes={item.likes}

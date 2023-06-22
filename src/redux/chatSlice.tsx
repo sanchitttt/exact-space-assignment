@@ -12,7 +12,6 @@ const initialState = {
             initials: 'AL',
             bgColor: '#904C4C',
             timestamp: '17:26',
-            reactions: null
         }
     ]
 }

@@ -6,7 +6,6 @@ interface PostMessage {
     initials: string,
     bgColor: `#${string}`,
     timestamp: string,
-    reactions?: Record<string, number>[] | null;
 }
 
 
